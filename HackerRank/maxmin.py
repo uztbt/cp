@@ -1,6 +1,5 @@
 from typing import List
 from collections import deque
-import bisect
 
 
 def maxMin(k: int, arr: List[int]):

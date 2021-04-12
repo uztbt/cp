@@ -13,7 +13,7 @@ def smallestChar(d: DefaultDict, keys: List[str]) -> str:
     for k in keys:
         if d[k] > 0:
             return k
-    raise "aa"
+    raise BaseException("aa")
 
 
 def reverseShuffleMerge(s: str) -> str:

@@ -1,4 +1,3 @@
-
 def swap(a, b):
     c = []
     swaps = 0
@@ -35,6 +34,6 @@ def countInversions(arr):
     (_, swaps) = countInversionsHelper(arr, len(arr))
     return swaps
 
-if __name__ = "__main__":
+if __name__ == "__main__":
     arr = []
     print(countInversions(arr))

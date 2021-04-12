@@ -1,0 +1,16 @@
+// Demo of the Dijkstra Algorithm
+digraph {
+	A
+	B
+	C
+	D
+	E
+	F
+	A -> B [label=4]
+	A -> C [label=8]
+	B -> D [label=3]
+	B -> E [label=8]
+	C -> D [label=1]
+	D -> F [label=10]
+	E -> F [label=6]
+}
